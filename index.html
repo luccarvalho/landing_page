@@ -23,6 +23,31 @@
         </div>
         <div id="formulario-subscricao">
             <p>Preencha o formulário para receber os detalhes do evento</p>
+            <form>
+                <div class="formulario-grupo">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome">
+                </div>
+                <div class="formulario-grupo">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Digite seu melhor e-mail">
+                </div>
+                <div class="formulario-grupo">
+                    <label for="phone">Telefone</label>
+                    <input type="text" name="phone" placeholder="Número de Whatsapp">
+                </div>
+                <div class="formulario-grupo">
+                    <label for="interest">Principal interesse</label>
+                    <select name="interest">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="apartment">Apartamentos</option>
+                        <option value="house">Casas</option>
+                        <option value="garden">Jardins</option>
+                        <option value="other">Outros</option>
+                    </select>
+                </div>
+                <input type="submit" class="btn" value="Quero me inscrever">
+            </form>
         </div>
 
     </header>
