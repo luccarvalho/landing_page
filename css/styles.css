@@ -1,0 +1,14 @@
+:root {
+    --primaria: #1ceb95;
+    --secundaria: #95989a;
+    --texto-primaria: #fff;
+    --texto-secundaria: #000;
+    --texto-tercearia: #5d5d5d;
+}
+
+* {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
