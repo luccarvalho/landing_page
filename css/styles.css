@@ -98,3 +98,90 @@
 .btn:hover {
     opacity: 1;
 }
+
+#beneficios-chave h2 {
+    background-color: var(--secundaria);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.beneficio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--texto-tercearia);
+}
+
+.beneficio .beneficio-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#beneficio-1 {
+    background-image: url("../img/sqr-1.jpg");
+}
+
+#beneficio-2 {
+    background-image: url("../img/sqr-2.jpg");
+}
+
+#beneficio-3 {
+    background-image: url("../img/sqr-3.jpg");
+}
+
+#localizacao {
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../img/hrz-1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--texto-primaria);
+    margin-bottom: 3em;
+}
+
+#endereco, #sobre-localizacao {
+    max-width: 30%;
+}
+
+#endereco {
+    display: flex;
+}
+
+#endereco i {
+    color: var(--primaria);
+    font-size: 4em;
+    margin-right: 0.5em;
+}
+
+#detalhes-endereco {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#sobre-localizacao h3 {
+    color: var(--primaria);
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+#sobre-localizacao p {
+    line-height: 1.5em;
+}
